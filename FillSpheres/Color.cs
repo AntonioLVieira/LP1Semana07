@@ -4,10 +4,10 @@ namespace FillSpheres
 {
     class Color
     {
-        private int red;
-        private int green;
-        private int alpha;
-        private int blue;
+        private int red  {get; set;} = 255;
+        private int green  {get; set;} = 255;
+        private int alpha  {get; set;} = 255;
+        private int blue {get; set;} = 255;
         
         public Color (int red, int green, int blue, int alpha)
         {
