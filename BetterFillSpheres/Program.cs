@@ -17,6 +17,7 @@ namespace BetterFillSpheres
             s.Throw();
             Console.WriteLine(purple.red + "," + purple.green + "," + purple.blue);
             Console.WriteLine(s.GetTimesThrown());
+            Console.WriteLine(purple.Name);
         }
     }
 }
